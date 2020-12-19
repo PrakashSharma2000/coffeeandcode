@@ -1,0 +1,114 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+header {
+  height: 15rem;  
+  margin: 0;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.inside-header{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #328da0;
+}
+.titleimg {  
+  
+  border-radius: 15px;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 20px;
+}
+
+.title-tag {
+  
+  color: white;
+  font-family: 'Corben';
+  font-size: 3rem;
+  letter-spacing: 0.7rem;
+  line-height: 4rem;
+  justify-content: center;
+}
+
+/* header end */
+.container{
+  margin-top: 10px;
+  border: slateblue 3px solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  
+  padding: 10px;
+  
+}
+
+.coffeeimg{
+  width: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1;
+}
+
+.qoutes{
+  width: 20rem;
+  font-size:2.9rem;
+  margin: 2px;
+}
+
+/* section end*/
+
+
+
+
+@media (max-width:650px){
+  .title-tag{ 
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    width: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .titleimg{
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    
+  }
+
+  .coffeeimg{
+    width: 15rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .qoutes{
+    width: 10rem;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
